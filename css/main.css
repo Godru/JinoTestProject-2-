@@ -1,0 +1,114 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    font-family: "Arial";
+    position: relative;
+    width: 1092px;
+}
+@media screen and (max-width: 1092px) {
+    .container{
+        width: 100%;
+    }
+}
+.main{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+@media screen and (max-width: 1092px) {
+    .top{
+        display: block;
+    }
+}
+.header{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__text{
+    margin-top: -2px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.main__logo_text{
+    color: #ff0015;
+}
+.form{
+
+}
+.logo{
+    margin: 22px auto 22px 10px;
+    display: flex;
+}
+.profile{
+    margin-left: 5px;
+    font-size: 40px;
+}
+.input{
+    padding: 0 15px;
+    margin-top: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+.input__block{
+    margin-top: 20px;
+    padding-right: 32px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.input__place{
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+}
+.input__text{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.input__state{
+    text-decoration: underline;
+}
+.input__img{
+    width: 40px;
+    margin-top: 5px;
+    height: 40px;
+    display: block;
+}
+.input__name{
+    color: grey;
+    margin-top: 5px;
+    display: block;
+}
+.input__result{
+    color: green;
+    margin: 3px 0 0 auto;
+    font-size: 13px;
+}
+.input__file{
+    left: -50%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(10);
+    opacity: 0;
+    -ms-transform: scale(10);
+    letter-spacing: 10em;
+    position: absolute;
+    display: block;
+
+}
+.input__file:hover{
+    cursor: pointer;
+}
